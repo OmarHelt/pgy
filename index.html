@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>蒲公英的约定</title>
+<link href="css/index.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<style type="text/css">
+body.custom-background {
+	background-image:url('imgs/1431335355535.jpg');
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:top left;
+	background-attachment:fixed;
+}
+</style>
+</head>
+<body class="custom-background">
+
+<div class="snow-container" style="position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:100001;">
+</div>
+<script type="text/javascript" src="js/all.js"></script>
+<audio id="myAudio" preload="auto">
+</audio>
+<div id="cdPlayer">
+	<div id="myConsole">曲名</div>
+	<div id="CD">
+		<div id="cdDisk"></div>
+		<div id="cdCover"></div>
+	</div>
+	<div id="cdControllerArm"></div>
+	<div id="playMode">
+		<div id="shuffleMode" class="mode" title="随机播放"><i class="iconfontPlayMode">&#xe85e;</i>&nbsp;</div>
+		<div id="listMode" class="mode" title="顺序播放"><i class="iconfontPlayMode">&#xe7ec;</i>&nbsp;</div>
+		<div id="loopMode" class="mode" title="单曲循环"><i class="iconfontPlayMode">&#xe7df;</i>&nbsp;</div>
+	</div>
+	<div id="controllerButton">
+		<div id="playBtn" class="button" title="播放"><i class="iconfont">&#xe830;</i>&nbsp;</div>
+		<div id="pauseBtn" class="button" title="暂停"><i class="iconfont">&#xe81f;</i>&nbsp;</div>
+		<div id="nextBtn" class="button" title="下一曲"><i class="iconfont">&#xe811;</i>&nbsp;</div>
+		<div id="preBtn" class="button" title="上一曲"><i class="iconfont">&#xe826;</i>&nbsp;</div>
+		<div id="stopBtn" class="button" title="停止"><i class="iconfont">&#xe875;</i>&nbsp;</div>
+		<div id="muteBtn" class="button" title="静音"><i class="iconfont">&#xe8b1;</i>&nbsp;</div>
+		<div id="firstBtn" class="button" title="首曲"><i class="iconfont">&#xe787;</i>&nbsp;</div>
+		<div id="lastBtn" class="button" title="末曲"><i class="iconfont">&#xe7cc;</i>&nbsp;</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.2.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
